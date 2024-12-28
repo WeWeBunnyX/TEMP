@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>issuebook</class>
+ <widget class="QWidget" name="issuebook">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>808</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Issue Book</string>
+  </property>
+  <widget class="QPushButton" name="backbutton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>490</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="bookTable">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>21</y>
+     <width>361</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="UserTable">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>361</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ISBNfield">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>340</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="UserIDfield">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>400</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ISBN">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ISBN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserID">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>410</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>User ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="issueButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>490</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Issue Book</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
